@@ -4,7 +4,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-maven-releases</version>
+  <version>1.0-my-app</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -23,15 +23,15 @@
     <repository>
       <uniqueVersion>false</uniqueVersion>
       <id>my-app</id>
-      <name>maven-releases</name>
-      <url>http://65.0.71.101:8081/repository/maven-releases/</url>
+      <name>my-app</name>
+      <url>http://ec2-15-207-21-174.ap-south-1.compute.amazonaws.com:8081/repository/my-app/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>my-app</id>
-      <name>maven-snapshots</name>
-      <url>http://65.0.71.101:8081/repository/maven-snapshots/</url>
+      <id>my-app-snapsho</id>
+      <name>my-app-snapshot</name>
+      <url>http://ec2-15-207-21-174.ap-south-1.compute.amazonaws.com:8081/repository/my-app-snapshot/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
